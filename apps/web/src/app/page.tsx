@@ -4,7 +4,7 @@ import ContactSection from "@/components/contact-section";
 
 export default function Home() {
 	return (
-		<div className="bg-background text-foreground p-4 md:p-8">
+		<div className="bg-background text-foreground p-0 md:p-8 ">
 			<div className="max-w-6xl mx-auto bg-card border border-border rounded-lg shadow-lg overflow-hidden">
 				<div className="flex flex-col md:flex-row">
 					{/* Sidebar */}
