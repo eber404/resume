@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../index.css";
-import Providers from "@/components/providers";
-import Header from "@/components/header";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -15,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "eber-resume",
-	description: "eber-resume",
+	title: "Eber Camargo | Web developer",
+	description: "My web developer resume.",
 };
 
 export default function RootLayout({
@@ -25,16 +23,11 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html lang="en">
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
-				<Providers>
-					<div className="grid grid-rows-[auto_1fr] h-svh">
-						<Header />
-						{children}
-					</div>
-				</Providers>
+				<div className="grid grid-rows-[auto_1fr] h-svh">{children}</div>
 			</body>
 		</html>
 	);

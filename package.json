@@ -1,25 +1,22 @@
 {
-  "name": "eber-resume",
-  "private": true,
-  "type": "module",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "scripts": {
-    "check": "biome check --write .",
-    "dev": "turbo dev",
-    "build": "turbo build",
-    "check-types": "turbo check-types",
-    "dev:native": "turbo -F native dev",
-    "dev:web": "turbo -F web dev",
-    "dev:server": "turbo -F @eber-resume/backend dev",
-    "dev:setup": "turbo -F @eber-resume/backend dev:setup"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "turbo": "^2.5.4",
-    "@biomejs/biome": "^2.2.0"
-  },
-  "packageManager": "bun@1.2.18"
+	"name": "eber-resume",
+	"private": true,
+	"type": "module",
+	"workspaces": [
+		"apps/*"
+	],
+	"scripts": {
+		"check": "biome check --write .",
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"check-types": "turbo check-types",
+		"dev:native": "turbo -F native dev",
+		"dev:web": "turbo -F web dev"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"turbo": "^2.5.4",
+		"@biomejs/biome": "^2.2.0"
+	},
+	"packageManager": "bun@1.2.18"
 }
