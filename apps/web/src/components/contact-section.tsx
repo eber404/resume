@@ -7,8 +7,8 @@ export default function ContactSection() {
 				Contact
 			</h2>
 			<ul className="space-y-2 text-sm">
-				<li className="flex items-center gap-2">
-					<Mail className="h-4 w-4 text-muted-foreground" />
+				<li className="flex items-center gap-2 flex-wrap">
+					<Mail className="shrink-0 h-4 w-4 text-muted-foreground" />
 					<span className="font-medium">Email:</span>
 					<a
 						href="mailto:bodacamargo@gmail.com"

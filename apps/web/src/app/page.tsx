@@ -4,15 +4,15 @@ import ContactSection from "@/components/contact-section";
 
 export default function Home() {
 	return (
-		<div className="bg-background text-foreground p-0 md:p-8 ">
+		<div className="bg-background text-foreground p-2 md:p-4 lg:p-8 ">
 			<div className="max-w-6xl mx-auto bg-card border border-border rounded-lg shadow-lg overflow-hidden">
 				<div className="flex flex-col md:flex-row">
 					{/* Sidebar */}
-					<aside className="w-full md:w-1/3 bg-muted p-6 md:p-8">
+					<aside className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 bg-muted p-2 md:p-4 lg:p-6">
 						<div className="sticky top-8">
 							{/* Name and Title */}
 							<div className="mb-8">
-								<h1 className="text-3xl md:text-4xl font-bold">EBER CAMARGO</h1>
+								<h1 className="text-3xl lg:text-4xl font-bold">EBER CAMARGO</h1>
 								<p className="mt-2 text-lg text-muted-foreground">
 									Front-end Specialist
 								</p>
