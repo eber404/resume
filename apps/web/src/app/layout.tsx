@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Eber Camargo | Web developer",
-	description: "My web developer resume.",
+	title: "Eber Camargo | Senior Front-end / React Native Engineer",
+	description:
+		"Resume of Eber Camargo, a senior front-end and React Native engineer focused on architecture, performance, and delivery.",
 };
 
 export default function RootLayout({

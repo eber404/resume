@@ -12,7 +12,7 @@ export default function ContactSection() {
 					<span className="font-medium">Email:</span>
 					<a
 						href="mailto:bodacamargo@gmail.com"
-						className="text-primary hover:underline"
+						className="text-foreground font-medium underline-offset-2 hover:text-primary hover:underline"
 					>
 						bodacamargo@gmail.com
 					</a>
@@ -34,7 +34,7 @@ export default function ContactSection() {
 						href="https://linkedin.com/in/eberc"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-primary hover:underline"
+						className="text-foreground font-medium underline-offset-2 hover:text-primary hover:underline"
 					>
 						eberc
 					</a>
@@ -46,7 +46,7 @@ export default function ContactSection() {
 						href="https://www.github.com/eber404"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-primary hover:underline"
+						className="text-foreground font-medium underline-offset-2 hover:text-primary hover:underline"
 					>
 						eber404
 					</a>
