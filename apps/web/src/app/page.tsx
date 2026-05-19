@@ -300,8 +300,7 @@ export default function Home() {
 									Languages: Portuguese (native), English (professional working proficiency).
 								</li>
 								<li>
-									Work model: International remote contractor and independent
-									roles paid in USD.
+									Available for international remote contractor roles.
 								</li>
 								<li>
 									Time zone: GMT-3 with overlap across North American teams.
@@ -315,8 +314,6 @@ export default function Home() {
 							</h2>
 							<ul className="space-y-1 list-disc list-inside text-muted-foreground pl-5">
 								<li>Senior React Native Engineer.</li>
-								<li>Senior React and Next.js Engineer.</li>
-								<li>AI-augmented Product Engineer for international remote teams.</li>
 							</ul>
 						</section>
 					</main>

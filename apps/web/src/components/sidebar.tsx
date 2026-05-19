@@ -8,7 +8,7 @@ export default function Sidebar() {
 				<div className="mb-8 print:mb-5">
 					<h1 className="text-3xl lg:text-4xl font-bold">EBER CAMARGO</h1>
 					<p className="mt-2 text-lg text-muted-foreground">
-						Senior React Native / React Engineer | TypeScript | AI Agentic Coding | CI/CD
+						Senior React Native / React Engineer | TypeScript | CI/CD
 					</p>
 				</div>
 
@@ -60,8 +60,8 @@ export default function Sidebar() {
 						<li>
 							<h3 className="font-medium">AI-Accelerated Delivery</h3>
 							<p className="text-muted-foreground">
-								Claude Code, Codex, skills, MCP servers for faster
-								engineering workflows
+								Claude Code, Codex, MCP-based workflows for faster
+								engineering delivery
 							</p>
 						</li>
 					</ul>
