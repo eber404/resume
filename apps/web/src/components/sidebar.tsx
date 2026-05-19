@@ -2,13 +2,13 @@ import ContactSection from "./contact-section";
 
 export default function Sidebar() {
 	return (
-		<aside className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 bg-muted p-2 md:p-4 lg:p-6">
+		<aside className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 bg-muted p-2 md:p-4 lg:p-6 print:w-full print:bg-white print:p-4">
 			<div className="sticky top-8">
 				{/* Name and Title */}
-				<div className="mb-8">
+				<div className="mb-8 print:mb-5">
 					<h1 className="text-3xl lg:text-4xl font-bold">EBER CAMARGO</h1>
 					<p className="mt-2 text-lg text-muted-foreground">
-						Senior Front-end / React Native Engineer
+						Senior React Native / React Engineer | TypeScript | AI Agentic Coding | CI/CD
 					</p>
 				</div>
 
@@ -23,27 +23,45 @@ export default function Sidebar() {
 						<li>
 							<h3 className="font-medium">Frontend & Mobile</h3>
 							<p className="text-muted-foreground">
-								React, React Native, Next.js, Expo, TypeScript, JavaScript
+								React Native, React, Next.js, TypeScript, JavaScript
+							</p>
+						</li>
+						<li>
+							<h3 className="font-medium">Testing & Quality Gates</h3>
+							<p className="text-muted-foreground">
+								Jest, React Testing Library, TDD, type checks
+							</p>
+						</li>
+						<li>
+							<h3 className="font-medium">Backend & APIs</h3>
+							<p className="text-muted-foreground">
+								Go, Node.js/Express, .NET Core, REST API
 							</p>
 						</li>
 						<li>
 							<h3 className="font-medium">Architecture</h3>
 							<p className="text-muted-foreground">
-								Clean Architecture, Domain-Driven Design (DDD), Ports &
-								Adapters, modular feature design
+								Clean Architecture, Domain-Driven Design, modular feature design
 							</p>
 						</li>
 						<li>
 							<h3 className="font-medium">Delivery & Quality</h3>
 							<p className="text-muted-foreground">
-								CI/CD, Bitrise, Fastlane, release automation, performance
-								optimization
+								CI/CD, GitHub Actions, Git, Bitrise, Fastlane, release
+								automation, performance optimization
 							</p>
 						</li>
 						<li>
-							<h3 className="font-medium">Backend Familiarity</h3>
+							<h3 className="font-medium">Data Layer</h3>
 							<p className="text-muted-foreground">
-								Node.js/Express, .NET Core, SQL Server, MySQL, MongoDB
+								PostgreSQL, SQL Server, MySQL, MongoDB
+							</p>
+						</li>
+						<li>
+							<h3 className="font-medium">AI-Accelerated Delivery</h3>
+							<p className="text-muted-foreground">
+								Claude Code, Codex, skills, MCP servers for faster
+								engineering workflows
 							</p>
 						</li>
 					</ul>

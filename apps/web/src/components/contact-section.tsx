@@ -36,7 +36,7 @@ export default function ContactSection() {
 						rel="noopener noreferrer"
 						className="text-foreground font-medium underline-offset-2 hover:text-primary hover:underline"
 					>
-						eberc
+						linkedin.com/in/eberc
 					</a>
 				</li>
 				<li className="flex items-center gap-2">
@@ -48,7 +48,7 @@ export default function ContactSection() {
 						rel="noopener noreferrer"
 						className="text-foreground font-medium underline-offset-2 hover:text-primary hover:underline"
 					>
-						eber404
+						github.com/eber404
 					</a>
 				</li>
 			</ul>

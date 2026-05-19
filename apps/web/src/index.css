@@ -153,3 +153,19 @@ body {
 		@apply leading-relaxed;
 	}
 }
+
+@media print {
+	@page {
+		size: A4;
+		margin: 8mm;
+	}
+
+	html,
+	body {
+		background: #fff !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+}
