@@ -70,8 +70,7 @@ export default function Home() {
 										</li>
 								<li className="font-medium text-foreground">
 									Reduced mobile CI build time by 2 hours through pipeline
-									optimization with type-safe refactoring and `tsc` quality
-									gates, accelerating release readiness.
+									CI/CD optimization, accelerating daily workflow readiness.
 								</li>
 									</ul>
 								</article>
@@ -246,19 +245,22 @@ export default function Home() {
 								Selected Achievements
 							</h2>
 							<ul className="space-y-1 list-disc list-inside text-muted-foreground pl-5">
-								<li>
-									Delivered architecture modernization initiatives in enterprise
-									mobile products, improving maintainability and reducing
-									onboarding friction.
+								<li className="font-medium text-foreground">
+									Resolved around 500 TypeScript errors in a legacy mobile
+									codebase, restoring strict type safety and unblocking feature
+									delivery.
 								</li>
 								<li>
-									Scaled CI/CD practices with Bitrise and Fastlane to accelerate
-									release readiness and reduce operational overhead.
+									Added 200+ unit tests and automated GitHub Actions workflows
+									to run type checks and unit tests on every change.
 								</li>
 								<li>
-									Implemented passkey-based and third-party authentication
-									integrations to strengthen security and streamline user
-									access.
+									Applied AI-assisted refactoring with type checking, Jest, and pull
+									request quality gates to prevent regressions before merge.
+								</li>
+								<li>
+									Used AI-assisted debugging and test authoring to shorten
+									feedback loops and speed up safe delivery cycles.
 								</li>
 							</ul>
 						</section>
@@ -284,14 +286,6 @@ export default function Home() {
 							</ul>
 						</section>
 
-						<section>
-							<h2 className="text-2xl font-semibold mb-4 border-b border-border pb-2">
-								Target Roles
-							</h2>
-							<ul className="space-y-1 list-disc list-inside text-muted-foreground pl-5">
-								<li>Senior React Native Engineer.</li>
-							</ul>
-						</section>
 					</main>
 				</div>
 			</div>
