@@ -240,30 +240,6 @@ export default function Home() {
 							</div>
 						</section>
 
-						<section className="mb-8">
-							<h2 className="text-2xl font-semibold mb-4 border-b border-border pb-2">
-								AI Agentic Stack
-							</h2>
-							<ul className="space-y-1 list-disc list-inside text-muted-foreground pl-5">
-								<li className="font-medium text-foreground">
-									Resolved around 500 TypeScript errors in a legacy mobile codebase,
-									restoring strict type safety and unblocking feature delivery.
-								</li>
-								<li>
-									Added 200+ unit tests and automated GitHub Actions workflows to
-									run type checks and unit tests on every change.
-								</li>
-								<li>
-									Applied AI-assisted refactoring with `tsc`, Jest, and pull
-									request quality gates to prevent regressions before merge.
-								</li>
-								<li>
-									Used AI-assisted debugging and test authoring to shorten
-									feedback loops and speed up safe delivery cycles.
-								</li>
-							</ul>
-						</section>
-
 						{/* Selected Achievements Section */}
 						<section className="mb-8">
 							<h2 className="text-2xl font-semibold mb-4 border-b border-border pb-2">
